@@ -21,7 +21,7 @@ export function NavBar() {
           <NavigationMenu.Trigger className="font-head flex items-center justify-between opacity-50 hover:opacity-100">
             Serviços{' '}
           </NavigationMenu.Trigger>
-          <NavigationMenu.Content className="overflow-hidden data-[motion=from-start]:animate-enterFromLeft data-[motion=from-end]:animate-enterFromRight data-[motion=to-start]:animate-exitToLeft data-[motion=to-end]:animate-exitToRight absolute flex w-full sm:w-screen bg-[#00040F] z-[1] justify-center">
+          <NavigationMenu.Content className="overflow-hidden data-[motion=from-start]:animate-enterFromLeft data-[motion=from-end]:animate-enterFromRight data-[motion=to-start]:animate-exitToLeft data-[motion=to-end]:animate-exitToRight absolute flex w-full sm:w-auto bg-[#00040F] z-[1] justify-center">
             <ul className="one m-0 grid list-none gap-x-[10px] p-[22px] sm:w-[500px] sm:grid-cols-[0.75fr_1fr]">
               <li className="row-span-3 grid">
                 <NavigationMenu.Link asChild>
@@ -60,7 +60,7 @@ export function NavBar() {
           <NavigationMenu.Trigger className="font-head flex items-center justify-between opacity-50 hover:opacity-100">
             Sobre{' '}
           </NavigationMenu.Trigger>
-          <NavigationMenu.Content className="overflow-hidden data-[motion=from-start]:animate-enterFromLeft data-[motion=from-end]:animate-enterFromRight data-[motion=to-start]:animate-exitToLeft data-[motion=to-end]:animate-exitToRight absolute flex w-full sm:w-screen bg-[#00040F] z-[1] justify-center">
+          <NavigationMenu.Content className="overflow-hidden data-[motion=from-start]:animate-enterFromLeft data-[motion=from-end]:animate-enterFromRight data-[motion=to-start]:animate-exitToLeft data-[motion=to-end]:animate-exitToRight absolute flex w-full sm:w-auto bg-[#00040F] z-[1] justify-center">
             <ul className="one m-0 grid list-none gap-x-[10px] p-[22px] sm:w-[500px] sm:grid-cols-[0.75fr_1fr]">
               <li className="row-span-3 grid">
                 <NavigationMenu.Link asChild>
