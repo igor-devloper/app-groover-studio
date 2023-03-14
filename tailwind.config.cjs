@@ -15,7 +15,8 @@ module.exports = {
         }
     },
     backgroundImage: {
-      'blur': "url(./assets/blur.png)"
+      'blur': "url(./assets/blur.png)",
+      'blur-serv': "url(./assets/blur-serv.png)"
     },
     fontFamily: {
       'head': ['Poppins', 'sans-serif'],
