@@ -7,7 +7,7 @@ export function NavBar() {
   return (
     <NavigationMenu.Root className="relative lg:z-[1] lg:justify-between lg:flex z-40 transition-opacity">
       <img src={logo} alt="" className='mt-[18px] ml-6 rounded-md flex mx-auto' />
-      <NavigationMenu.List className="center shadow-blackA7 lg:flex list-none rounded-[6px] p-1 text-white mt-[37px] mr-[151px] lg:gap-16 flex gap-16 my-10 mx-10">
+      <NavigationMenu.List className="center shadow-blackA7 lg:flex list-none rounded-[6px] p-1 text-white mt-[37px] mr-[151px] lg:gap-16 flex gap-4 my-10 mx-4">
         {/* Nav Inicio */}
         <NavigationMenu.Item>
           <NavigationMenu.Trigger className="font-head flex items-center justify-between opacity-50 hover:opacity-100">
