@@ -69,7 +69,7 @@ module.exports = {
       enterFromLeft: 'enterFromLeft 250ms ease',
       enterFromRight: 'enterFromRight 250ms ease',
       exitToLeft: 'exitToLeft 250ms ease',
-      exitToRight: 'exitToRight 250ms ease',
+      exitToRight: 'exitToRight 250ms ease',  
     },
   },
   plugins: [

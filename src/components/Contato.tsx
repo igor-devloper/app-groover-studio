@@ -1,21 +1,22 @@
 import { WhatsappLogo } from '@phosphor-icons/react';
 import imgCtt from '../assets/img-ctt.png';
+
 export function Contato() {
   return (
-    <div className="flex flex-1 justify-center gap-20">
+    <div className="flex lg:flex-1 lg:justify-center lg:gap-20 flex-col items-center justify-center lg:flex-row">
+      <img src={imgCtt} alt="" className='lg:flex lg:max-w-[400px] max-w-[300px] justify-center flex' />
       <a href="
         https://api.whatsapp.com/send?l=pt-BR&phone=5583986120323&text=Ol%C3%A1%2C+vim+pelo+seu+sites.%0AVoc%C3%AA+pode+me+passar+umas+informa%C3%A7%C3%B5es%3F&fbclid=PAAabd59o93FavSL3byJ1rMjkRXerk4TrHRbpIz7ph8MYmJP7AX5y_rDaEZdo"
-        className='flex items-center justify-center '
+        className='lg:flex lg:items-center lg:justify-center my-10'
         target={'_blank'}
       >
         <button 
-          className='p-4 bg-green-500 rounded-md font-head  text-white flex items-center gap-2 shadow-md hover:opacity-70 transition-opacity'
+          className='p-4 bg-green-500 rounded-md font-head  text-white lg:flex lg:items-center gap-2 shadow-md  hover:opacity-50 transition-opacity animate-transform flex items-center'
         >
           <WhatsappLogo size={32} weight="light" />
           Entre em contato no Whatsapp
         </button>
       </a>
-      <img src={imgCtt} alt="" className='flex max-w-[400px] ' />
     </div>
   )
 }
