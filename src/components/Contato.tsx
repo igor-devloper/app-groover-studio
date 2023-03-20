@@ -1,5 +1,6 @@
 import { WhatsappLogo } from '@phosphor-icons/react';
 import imgCtt from '../assets/img-ctt.png';
+import '../styles/button.css'
 
 export function Contato() {
   return (
@@ -11,7 +12,8 @@ export function Contato() {
         target={'_blank'}
       >
         <button 
-          className='p-4 bg-green-500 rounded-md font-head  text-white lg:flex lg:items-center gap-2 shadow-md  hover:opacity-50 transition-opacity animate-transform flex items-center'
+          id='buttonC'
+          className='p-4 bg-green-500 rounded-md font-head  text-white lg:flex lg:items-center gap-2 flex items-center'
         >
           <WhatsappLogo size={32} weight="light" />
           Entre em contato no Whatsapp
